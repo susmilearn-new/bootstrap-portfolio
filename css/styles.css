@@ -1,0 +1,170 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Inter", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    color: #fff;
+    background-color: #000;
+}
+
+nav {
+    background-color: #000;
+}
+
+img {
+    max-width: 100%;
+}
+
+p {
+    margin-bottom: 0px;
+    color: #bebebe;
+}
+
+span,
+i {
+    color: #2dd4bf;
+}
+
+.btn {
+    font-size: 14px;
+    padding: 10px 15px;
+}
+
+.btn:hover {
+    box-shadow: 3px 3px 12px -6px #2dd4bf;
+    color: #2dd4bf;
+}
+
+.btn-blue {
+    background-color: #2dd4bf;
+    color: black;
+}
+
+.btn-blue:hover {
+    background-color: transparent;
+    color: #2dd4bf;
+    border: 1px solid #2dd4bf;
+}
+
+section {
+    padding: 50px 0px;
+}
+
+footer {
+    border-top: 1px solid #181818;
+    font-size: 14px;
+}
+
+footer ul {
+    justify-content: end;
+}
+
+footer li {
+    list-style: none;
+}
+
+footer i {
+    color: #c0c0c0;
+}
+
+footer i:hover {
+    color: #fff;
+}
+
+ul {
+    padding: 0;
+    margin-bottom: 0px;
+}
+
+.box-bg {
+    background-color: #20312e;
+    width: auto;
+}
+
+/* Common style ends */
+
+.profile-section h3 {
+    font-size: 18px;
+    letter-spacing: 1px;
+}
+
+.profile-section h2 {
+    line-height: 65px;
+}
+
+.profile-section img {
+    box-shadow: -6px 10px 28px -21px #2dd4bf;
+
+}
+
+.profile-section p {
+    color: #c0c0c0;
+}
+
+.bring-box,
+.dark-box {
+    background-color: #1e1e1e;
+}
+
+.bring-box i {
+    background-color: #20312e;
+    padding: 10px;
+    width: auto;
+}
+
+.expertise-section .bring-box {
+    min-height: 200px;
+}
+
+.banner {
+    background-image: url('../images/Table.jpeg'), linear-gradient(#186057, rgba(0, 0, 0, 1));
+    background-blend-mode: overlay;
+    padding: 200px 50px 100px 50px;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.card {
+    min-height: 400px;
+}
+
+.ready-section p {
+    padding: 0px 250px 30px 250px;
+}
+
+.tools-section .bring-box {
+    min-height: 190px;
+}
+
+.contact-info-title {
+    font-size: 12px;
+}
+
+.contact-info a {
+    text-decoration: none;
+    font-size: 14px;
+}
+
+input,
+textarea {
+    color: #fff !important;
+}
+
+input:focus,
+textarea:focus {
+    outline: none !important;
+    box-shadow: none !important;
+}
+
+input::placeholder,
+textarea::placeholder {
+    color: #6d6d6d !important;
+}
